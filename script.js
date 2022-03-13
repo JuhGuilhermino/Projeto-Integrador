@@ -42,3 +42,6 @@ class MobileNavbar {
         ".menu_lista li",
   );
   mobileNavbar.init();
+
+
+/*Resenhas*/

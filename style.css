@@ -340,13 +340,6 @@ h3{
     ;
 }
 
-#title_cat{
-    color: black; 
-    position: absolute;
-    width: 60vw;
-    top: 0vh;
-}
-
 #catalogo {
     position: absolute;
     width: 100vw;
@@ -373,15 +366,20 @@ h3{
 #cards_item{
     display: inline-block;
     transition: all.2 ease-in-out;
-    max-width: 15rem;
-    max-height: 10rem;
-    padding: 3%;
-    top: 100px;
+    padding: 1%;
 }
 
-#cards_item.img{
-    height: 100%;
-    width: 100%;
+#cards_item img{
+    cursor: pointer;
+}
+
+#cards_item img:hover {
+    opacity: 0;
+  }
+
+#cards_img:hover{
+    background-image: url(assets/ex.red.png);
+    background-repeat: no-repeat;
 }
 
 ::-webkit-scrollbar{
