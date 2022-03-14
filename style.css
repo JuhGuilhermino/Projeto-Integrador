@@ -340,6 +340,51 @@ h3{
     ;
 }
 
+#sinopses{
+    position: absolute;
+    width: 80vw;
+    height: 93vh;
+    left: 20vh;
+    top: 1vh;
+    outline: 3px solid black;
+}
+
+#sinopses ul{
+    display: flex;
+    overflow: hidden;
+    list-style: none;
+    width: 80vw;
+    height: 93vh;
+}
+
+#sinopses img{
+    width: 80vw;
+    height: 93vh;
+    background-color: #3B0918;
+}
+
+#sinopses li{
+    position: relative;
+}
+
+@keyframes slide{
+    0%{right: 0vw;}
+    20%{right: 0vw;}
+    30%{right: 80vw;}
+    50%{right: 80vw;}
+    60%{right: 160vw;}
+    90%{right: 160vw;}
+    100%{right: 0vw;}
+}
+
+/*#introdução_cat img{
+    position: absolute;
+    width: 80vw;
+    height: 93vh;
+    left: 20vh;
+    top: 1vh;
+}*/
+
 #catalogo {
     position: absolute;
     width: 100vw;
@@ -477,5 +522,47 @@ h3{
 }
 
 
-
 /*REFERENCIAS.HTML*/
+
+#tabela{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 95vh;
+    background-color: whitesmoke;
+    ;
+}
+
+table{
+    position: absolute;
+    left: 30vw;
+    top: 20vh;
+}
+
+td,th{
+    border: 2px solid #B8390E;
+}
+
+tr,td, th {
+    width:20%;
+    text-align: center;
+}
+
+#th2{
+    background-color: #B8390E;
+}
+
+th{
+    font-family: "Open Sans";
+    background-color: rgba(184, 57, 14, 0.5);
+}
+
+td{
+    font-family: "ubuntu";
+}
+
+#footer_referencias{
+    position: absolute;
+    left: 0vw;
+    top: 190vh;
+}
