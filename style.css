@@ -440,8 +440,29 @@ a:hover {
 }
 
 #catalogo_favoritos,#catalogo_sagas,#catalogo_livros {
+    width: 100%;
+    height: 95vh;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#catalogo_sagas {
+    background-color: #137474;
+}
+
+#catalogo_livros {
+    background-color: #B46746;
+}
+
+#catalogo_sagas p, #catalogo_livros p {
+    width: 60vw;
+}
+
+#catalogo_sagas h1, #catalogo_livros h1 {
+    width: 60vw;
+    margin-bottom: 2vh;
 }
 
 #livros_box,#sagas_box {
