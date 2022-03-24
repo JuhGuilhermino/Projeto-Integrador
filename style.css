@@ -464,11 +464,11 @@ a:hover {
     height: 120vh;
 }
 
-#catalogo_sagas p, #catalogo_livros p {
+.text_catalogo p, .text_catalogo p {
     width: 60vw;
 }
 
-#catalogo_sagas h1, #catalogo_livros h1 {
+.text_catalogo h1, .text_catalogo h1 {
     width: 60vw;
     margin-bottom: 2vh;
 }
@@ -502,6 +502,10 @@ a:hover {
     height: 465px;
 }
 
+#ex_livro{
+    border-radius: 10.84px;
+}
+
 #footer_mundos {
     background-color: #B6AC76;
     width: 100%;
@@ -530,6 +534,7 @@ a:hover {
     display: flex;
     flex-direction: column;
     text-align: center;
+    align-items: center;
     justify-items: center;
     width: 40vw;
 }
@@ -537,12 +542,13 @@ a:hover {
 #titulo_livro{
     font-family: "Open Sans";
     color: #3B0918;
-    font-size: 42px;
+    white-space: normal;
 }
 
 #autor{
     font-size: 30px;
     font-family: "Ubuntu";
+    white-space: normal;
 }
 
 #texto_sinopse{
@@ -566,7 +572,7 @@ body::-webkit-scrollbar {
     width: 20px;              
   }
 
-  body::-webkit-scrollbar-thumb {
+body::-webkit-scrollbar-thumb {
     background-color: #f3f5f3;    
     border-radius: 20px;       
   }
