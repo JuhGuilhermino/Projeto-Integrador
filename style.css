@@ -492,12 +492,73 @@ a:hover {
     opacity: 0;
   }
 
-#cards_img:hover{
-    background-image: url(assets/ex.red.png);
+#cards_img1:hover{
+    background-image: url(assets/narnia_2.png);
     background-repeat: no-repeat;
+    background-size: 300px 467px;
 }
 
-#cards_img{
+#cards_img2:hover{
+    background-image: url(assets/cemiterio_2.png);
+    background-repeat: no-repeat;
+    background-size: 300px 467px;
+}
+
+#cards_img3:hover{
+    background-image: url(assets/acotar_2.png);
+    background-repeat: no-repeat;
+    background-size: 300px 467px;
+}
+
+#cards_img4:hover{
+    background-image: url(assets/percy_jackson_2.png);
+    background-repeat: no-repeat;
+    background-size: 300px 467px;
+}
+
+#cards_img5:hover{
+    background-image: url(assets/herois_do_olimpo_2.png);
+    background-repeat: no-repeat;
+    background-size: 300px 467px;
+}
+
+#cards_img9:hover{
+    background-image: url(assets/por_lugares_2.png);
+    background-repeat: no-repeat;
+    background-size: 300px 467px;
+}
+
+#cards_img10:hover{
+    background-image: url(assets/outlander_2.png);
+    background-repeat: no-repeat;
+    background-size: 300px 467px;
+}
+
+#cards_img11:hover{
+    background-image: url(assets/alice_2.png);
+    background-repeat: no-repeat;
+    background-size: 300px 467px;
+}
+
+#cards_img12:hover{
+    background-image: url(assets/petrus_logus_2.png);
+    background-repeat: no-repeat;
+    background-size: 300px 467px;
+}
+
+#cards_img13:hover{
+    background-image: url(assets/it_2.png);
+    background-repeat: no-repeat;
+    background-size: 300px 467px;
+}
+
+#cards_img14:hover{
+    background-image: url(assets/rainha_vermelha_2.png);
+    background-repeat: no-repeat;
+    background-size: 300px 467px;
+}
+
+.cards_img{
     border-radius: 10.84px;
     height: 465px;
 }
