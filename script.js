@@ -51,18 +51,6 @@ function exibir5(){
     unicadiv5.style.display = "flex"
 }
 
-function exibir6(){
-    unicadiv6.style.display = "flex"
-}
-
-function exibir7(){
-    unicadiv7.style.display = "flex"
-}
-
-function exibir8(){
-    unicadiv8.style.display = "flex"
-}
-
 function exibir9(){
     unicadiv9.style.display = "flex"
 }
@@ -87,29 +75,16 @@ function exibir14(){
     unicadiv14.style.display = "flex"
 }
 
-function exibir15(){
-    unicadiv15.style.display = "flex"
-}
-
-function exibir16(){
-    unicadiv16.style.display = "flex"
-}
-
 function fechar(){
     unicadiv.style.display = "none"
     unicadiv2.style.display = "none"
     unicadiv3.style.display = "none"
     unicadiv4.style.display = "none"
     unicadiv5.style.display = "none"
-    unicadiv6.style.display = "none"
-    unicadiv7.style.display = "none"
-    unicadiv8.style.display = "none"
     unicadiv9.style.display = "none"
     unicadiv10.style.display = "none"
     unicadiv11.style.display = "none"
     unicadiv12.style.display = "none"
     unicadiv13.style.display = "none"
     unicadiv14.style.display = "none"
-    unicadiv15.style.display = "none"
-    unicadiv16.style.display = "none"
 }
