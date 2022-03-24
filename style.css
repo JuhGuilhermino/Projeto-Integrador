@@ -451,14 +451,17 @@ a:hover {
     height: 95vh;
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 #catalogo_sagas {
     background-color: #137474;
+    height: 120vh;
 }
 
 #catalogo_livros {
     background-color: #B46746;
+    height: 120vh;
 }
 
 #catalogo_sagas p, #catalogo_livros p {
