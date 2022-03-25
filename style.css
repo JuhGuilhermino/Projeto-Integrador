@@ -726,8 +726,9 @@ table{
 }
 
 td,th,tr{
-    border: 3px solid #000000;
+    border: 3px solid #3B0918;
     width: 30%;
+    font-family: Ubuntu;
 }
 
 #topico{
@@ -841,6 +842,10 @@ td,th,tr{
         height: 25vh;
     }
 }
+
+
+
+
 
 /*Animation*/
 
@@ -976,6 +981,7 @@ td,th,tr{
 }
 
 .f_autor{
+    font-family: Ubuntu;
     color: white;
     position: relative;
     top: 5vh;
