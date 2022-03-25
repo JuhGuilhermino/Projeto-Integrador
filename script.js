@@ -9,12 +9,6 @@ var unicadiv4 = window.document.getElementById('div_ex4')
 
 var unicadiv5 = window.document.getElementById('div_ex5')
 
-var unicadiv6 = window.document.getElementById('div_ex6')
-
-var unicadiv7 = window.document.getElementById('div_ex7')
-
-var unicadiv8 = window.document.getElementById('div_ex8')
-
 var unicadiv9 = window.document.getElementById('div_ex9')
 
 var unicadiv10 = window.document.getElementById('div_ex10')
@@ -26,10 +20,6 @@ var unicadiv12 = window.document.getElementById('div_ex12')
 var unicadiv13 = window.document.getElementById('div_ex13')
 
 var unicadiv14 = window.document.getElementById('div_ex14')
-
-var unicadiv15 = window.document.getElementById('div_ex15')
-
-var unicadiv16 = window.document.getElementById('div_ex16')
 
 function exibir(){
     unicadiv.style.display = "flex"

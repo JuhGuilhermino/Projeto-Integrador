@@ -142,21 +142,6 @@ a:hover {
     background-position: center; 
 }
 
-#frases {
-    background-image: url(assets/kraft1.png);
-    background-size: cover;
-    width: 100%;
-    height: 95vh;
-    position: relatve;
-}
-
-#img_frases {
-    height: 40vh;
-    position: absolute;
-    right: 0;
-    top: 150vh;
-}
-
 #apresentacao {
     background-color: #3B3309;
     width: 100%;
@@ -448,7 +433,7 @@ a:hover {
 
 #catalogo_favoritos,#catalogo_sagas,#catalogo_livros {
     width: 100%;
-    height: 95vh;
+    height: 120vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -456,12 +441,10 @@ a:hover {
 
 #catalogo_sagas {
     background-color: #137474;
-    height: 120vh;
 }
 
 #catalogo_livros {
     background-color: #B46746;
-    height: 120vh;
 }
 
 .text_catalogo p, .text_catalogo p {
@@ -705,8 +688,20 @@ body::-webkit-scrollbar-thumb {
     background-position: center;
 }
 
+#body_referencias{
+    background-color: #3B3309;
+    height: 200vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
-
+#tabela_ref{
+    background-image: url(assets/kraft1.png);
+    height: 150vh;
+    width: 60vw;
+    border-radius: 40px;
+}
 
 /*RESPONSIVIDADE telas pquenas*/
 @media (max-width:830px)  {
@@ -806,4 +801,217 @@ body::-webkit-scrollbar-thumb {
     #membro1_img,#membro2_img{
         height: 25vh;
     }
+}
+
+/*Animation*/
+
+#frases {
+    background-image: url(assets/kraft1.png);
+    width: 100%;
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#img_frases {
+    height: 40vh;
+    position: absolute;
+    right: 0;
+    top: 150vh;
+}
+
+#f1_l5{
+    color:#137474;
+    position: relative;
+    right: 10vw;
+}
+
+#f1_l1{
+    position: relative;
+    right: 10vw;
+}
+
+#f1_l2{
+    position: relative;
+    left: 5vw;
+}
+
+#f1_l4{
+    position: relative;
+    left: 13vw;
+}
+
+#f2_l1{
+    position: relative;
+}
+
+#f2_l2{
+    position: relative;
+    right: 14vw;
+}
+
+#f2_l3{
+    color: #3B3309;
+    position: relative;
+}
+
+#f2_l4{
+    position: relative;
+    right: 12vw;
+}
+
+#f2_l5{
+    position: relative;
+    left: 5vw;
+}
+
+#f3_l1{
+    position: relative;
+    color: #B46746;
+    right: 9vw;
+}
+
+#f3_l2{
+    position: relative;
+    left: 2vw;
+}
+
+#f3_l3{
+    position: relative;
+    right: 10vw;
+}
+
+#f3_l4{
+    position: relative;
+    color: #B46746;
+    left: 6vw;
+}
+
+#f4_l1{
+    position: relative;
+}
+
+#f4_l2{
+    position: relative;
+    left: 10vw;
+    color: #137474;
+}
+
+#f4_l3{
+    position: relative;
+    right: 10vw;
+}
+
+#f4_l4{
+    position: relative;
+    left: 8vw;
+}
+
+#f5_l1{
+    position: relative;
+}
+
+#f5_l2{
+    position: relative;
+    right: 14vw;
+}
+
+#f5_l3{
+    color: #3B3309;
+    position: relative;
+}
+
+#f5_l4{
+    position: relative;
+    left: 12vw;
+}
+
+#f5_l5{
+    position: relative;
+    right: 15vw;
+}
+#f5_l6{
+    position: relative;
+    left: 10vw;
+}
+
+.f_autor{
+    color: white;
+    position: relative;
+    top: 5vh;
+    text-align: center;
+    font-size: 15px;
+}
+
+#frase1{
+    opacity: 0;
+    animation-name: flutuar;
+    animation-duration: 30s;
+    position: absolute;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    color: #F5F3F5;
+}
+
+#frase2{
+    opacity: 0;
+    position: absolute;
+    animation-name: flutuar;
+    animation-duration: 30s;
+    animation-delay: 7s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    color: #F5F3F5;
+}
+
+#frase3{
+    opacity: 0;
+    position: absolute;
+    animation-name: flutuar;
+    animation-duration: 30s;
+    animation-delay: 13s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    color: #F5F3F5;
+}
+
+#frase4{
+    opacity: 0;
+    position: absolute;
+    animation-name: flutuar;
+    animation-duration: 30s;
+    animation-delay: 19s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    color: #F5F3F5;
+}
+
+#frase5{
+    opacity: 0;
+    position: absolute;
+    animation-name: flutuar;
+    animation-duration: 30s;
+    animation-delay: 24s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    color: #F5F3F5;
+}
+
+@keyframes flutuar{
+    0%{
+        opacity: 0.1;
+    }
+    5%{
+        opacity: 1;
+    }
+    10%{ 
+        opacity: 1;
+    }
+    22% {
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
+    }    
 }
